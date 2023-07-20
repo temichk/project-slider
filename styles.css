@@ -1,0 +1,185 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper,
+.close-all {
+  display: none;
+}
+
+@media (width < 321px) {
+  .swiper {
+    display: block;
+    width: 320px;
+    height: 130px;
+    left: 0;
+    margin-left: 16px;
+  }
+
+  .service-gallery,
+  .show-all,
+  .close-all {
+    display: none;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: #b5b6bc;
+  }
+
+  .fade-container {
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 80%
+    );
+    position: absolute;
+    right: -16px;
+    top: 70px;
+    height: 80px;
+    width: 60px;
+    z-index: 10;
+  }
+
+  h1 {
+    margin-top: 0px;
+  }
+}
+
+@media (width > 321px) {
+  .service-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 180px;
+    overflow-y: hidden;
+    margin-left: 24px;
+  }
+
+  .show-all {
+    display: block;
+  }
+
+  .fade-container {
+    display: none;
+  }
+}
+
+.show-all,
+.close-all {
+  border: none;
+  color: #1b1c21;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  background: url("img/expand.png");
+  background-repeat: no-repeat;
+  text-indent: 24px;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+.service-gallery button,
+.swiper-wrapper .swiper-slide button {
+  width: 240px;
+  height: 72px;
+  flex-shrink: 0;
+  margin: 8px;
+  padding: 0;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+
+h1 {
+  color: #7e7e82;
+  font-family: TT Lakes, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  margin-left: 24px;
+  vertical-align: middle;
+}
+
+.title-container {
+  background: linear-gradient(-270deg, #f8f8f8 0%, #fff 100%);
+  padding-top: 16px;
+  width: 110%;
+  height: 56px;
+}
+
+.service-gallery .service-logo-1,
+.swiper-wrapper .swiper-slide .service-logo-1 {
+  background: url("img/acer.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-2,
+.swiper-wrapper .swiper-slide .service-logo-2 {
+  background: url("img/apple.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-3,
+.swiper-wrapper .swiper-slide .service-logo-3 {
+  background: url("img/bosch.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-4,
+.swiper-wrapper .swiper-slide .service-logo-4 {
+  background: url("img/hp.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-5,
+.swiper-wrapper .swiper-slide .service-logo-5 {
+  background: url("img/lenovo.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-6,
+.swiper-wrapper .swiper-slide .service-logo-6 {
+  background: url("img/samsung.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-7,
+.swiper-wrapper .swiper-slide .service-logo-7 {
+  background: url("img/sony.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-8,
+.swiper-wrapper .swiper-slide .service-logo-8 {
+  background: url("img/viewsonic.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-9,
+.swiper-wrapper .swiper-slide .service-logo-9 {
+  background: url("img/acer.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-10,
+.swiper-wrapper .swiper-slide .service-logo-10 {
+  background: url("img/apple.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
+
+.service-gallery .service-logo-11,
+.swiper-wrapper .swiper-slide .service-logo-11 {
+  background: url("img/bosch.png") no-repeat 16px,
+    url("img/go.png") no-repeat 184px, #fff;
+}
